@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Lihat foto dan momen kebersamaan mahasiswa kelas MI.25.R1 AMIK ITMI." />
+  <meta name="theme-color" content="#ffe000" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Galeri | MI.25.R1 AMIK ITMI" />
+  <meta property="og:description" content="Galeri foto kelas MI.25.R1 AMIK ITMI." />
+  <title>Galeri | MI.25.R1 AMIK ITMI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="class-home">
+  <header class="class-page-hero">
+    <a class="campus-logo" href="index.html" aria-label="Kembali ke Home">
+      <img src="assets/logokampus.png" alt="Logo AMIK ITMI" />
+    </a>
+    <div class="class-hero-content">
+      <span class="class-kicker">MI.25.R1 AMIK ITMI</span>
+      <h1>Galeri Kelas</h1>
+      <p>Momen kebersamaan kelas kami.</p>
+    </div>
+  </header>
+
+  <nav aria-label="Navigasi utama">
+    <a href="index.html">Home</a>
+    <a href="tentang.html">About Us</a>
+    <a href="tentang.html#lecturer">Dosen Pengampu</a>
+    <a href="galeri.html" aria-current="page">Galeri</a>
+  </nav>
+
+  <main>
+    <section class="class-section gallery-section">
+      <div class="class-section-inner">
+        <span class="section-eyebrow">CERITA KELAS KAMI</span>
+        <h2>Foto-Foto Kami</h2>
+        <div class="class-gallery">
+          <img src="assets/fotokami.jpg" alt="Momen kelas MI.25.R1, foto 1" data-gallery-index="0" />
+          <img src="assets/fotokami2.jpg" alt="Momen kelas MI.25.R1, foto 2" data-gallery-index="1" loading="lazy" />
+          <img src="assets/fotokami3.jpg" alt="Momen kelas MI.25.R1, foto 3" data-gallery-index="2" loading="lazy" />
+          <img src="assets/fotokami4.jpg" alt="Momen kelas MI.25.R1, foto 4" data-gallery-index="3" loading="lazy" />
+          <img src="assets/fotokami5.jpg" alt="Momen kelas MI.25.R1, foto 5" data-gallery-index="4" loading="lazy" />
+          <img src="assets/fotokami6.jpg" alt="Momen kelas MI.25.R1, foto 6" data-gallery-index="5" loading="lazy" />
+          <img src="assets/fotokami7.jpg" alt="Momen kelas MI.25.R1, foto 7" data-gallery-index="6" loading="lazy" />
+          <img src="assets/fotokami8.jpg" alt="Momen kelas MI.25.R1, foto 8" data-gallery-index="7" loading="lazy" />
+          <img src="assets/fotokami9.jpg" alt="Momen kelas MI.25.R1, foto 9" data-gallery-index="8" loading="lazy" />
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <dialog class="photo-viewer" id="photoViewer" aria-label="Tampilan foto kelas">
+    <div class="photo-viewer-topline">
+      <span id="photoCounter" aria-live="polite"></span>
+      <button class="photo-viewer-icon" id="closePhotoViewer" type="button" aria-label="Tutup foto">&times;</button>
+    </div>
+    <div class="photo-viewer-stage">
+      <button class="photo-viewer-icon" id="previousPhoto" type="button" aria-label="Foto sebelumnya">&lsaquo;</button>
+      <img id="photoViewerImage" alt="" />
+      <button class="photo-viewer-icon" id="nextPhoto" type="button" aria-label="Foto berikutnya">&rsaquo;</button>
+    </div>
+    <p id="photoCaption"></p>
+  </dialog>
+
+  <div class="class-music-player" aria-label="Pemutar musik kelas">
+    <audio id="storeMusic" loop preload="metadata"></audio>
+    <button class="music-toggle" id="musicToggle" type="button" aria-pressed="false">Putar musik</button>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 MI.25.R1 AMIK ITMI</p>
+  </footer>
+  <script src="class-ui.js"></script>
+  <script src="music.js"></script>
+</body>
+</html>
