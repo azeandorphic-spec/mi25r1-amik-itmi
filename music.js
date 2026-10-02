@@ -5,7 +5,6 @@ if (music && musicButton) {
   const playlist = [
     'assets/penggantibacksound1.mp3.mp3',
     'assets/penggantibacksound2.mp.mp3',
-    'assets/backsound3.mp3',
     'assets/2112.mp3',
     'assets/A Sorrowful Reunion.mp3',
     'assets/anything you want.mp3',
@@ -14,7 +13,6 @@ if (music && musicButton) {
   const trackNames = [
     'Treat You Better',
     'Shape My Heart',
-    'Line Without a Hook',
     '2112',
     'A Sorrowful Reunion',
     'Anything You Want',
