@@ -18,7 +18,6 @@ const classAssets = [
   'fotokami9.jpg',
   'penggantibacksound1.mp3.mp3',
   'penggantibacksound2.mp.mp3',
-  'backsound3.mp3',
   '2112.mp3',
   'A Sorrowful Reunion.mp3',
   'anything you want.mp3',
